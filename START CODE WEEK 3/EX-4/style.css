@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #9ca3af;
+    font-family: "Poppins", serif;
+}
+.container {
+    width: 70vh;
+    padding: 10px 50px;
+    background-color: #d1d5db;
+    margin: 50px;
+    border-radius: 30px;
+    border: 0.1px solid gray;
+    filter: brightness(110%) drop-shadow(0px 16px 16px #f3f4f6);
+
+}
+#dot {
+    font-size: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon img {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: 50px auto;
+    clip-path: circle(50% at 50% 50%);
+}
+.info {
+    text-align: center;
+    .name {
+        font-weight: 500;
+    }
+    .bio {
+        color: rgba(0, 0, 0, 0.5)
+    }
+}
+.follow {
+    display: flex;
+    justify-content: center;
+    div {
+        margin: 40px 30px;
+        text-align: center;
+    }
+}
+.title {
+    color: rgba(0, 0, 0, 0.5);
+}
+.description {
+    text-align: center;
+}
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+.socialMedia a img {
+    height: 40px;
+    width: 40px;
+    margin: 50px 10px;
+}
+.socialMedia a img:hover {
+    height: 50px;
+    width: 50px;
+    transition: transform 250ms ease-in-out, filter 1000ms ease-in 250ms ease-out;
+}
+.btn {
+    text-align: center;
+}
+button {
+    border-style: none;
+    padding:  10px 50px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    font-size: 20px;
+    border: 1px solid #616366;
+    transition: transform 250ms ease-in-out, filter 1000ms ease-in 250ms ease-out;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
+button:hover {
+    background-color: #9ca3af;
+    border: 2px solid #2c2e31;
+    transition: 0.5s;
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    filter: brightness(110%) drop-shadow(0px 16px 16px rgb(113, 159, 239));
+    a {
+        text-decoration: none;
+        font-size: 30px;    
+    }
+}
